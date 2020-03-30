@@ -59,5 +59,6 @@ export default {
 		left: 42%;
 		top: 10px;
     text-align: center;
+    z-index: 5;
 }
 </style>

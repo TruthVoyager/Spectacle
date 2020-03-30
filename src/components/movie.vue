@@ -139,8 +139,8 @@ color: #9c29b6;
 #genre{
 position: absolute;
 top: 70px;
-left: 750px;
-width: 800px;
+left: 600px;
+width: 900px;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-size: 20pt;

@@ -24,14 +24,14 @@ export default {
 #topbanner{
   position: fixed;
   width: 110%;
-  z-index: 0;
+  z-index: 3;
   top: -10px;
   left: -20px;
 }
 #bottombanner{
   position: fixed;
   width: 110%;
-  z-index: 0;
+  z-index: 3;
   bottom: -10px;
   left: -20px;
 }

@@ -35,7 +35,7 @@ export default {
   line-height: 100%;
 }
 #logopos2 {
-  position: absolute;
+  position: fixed;
   top: -45px;
   left: 44px;
   z-index: 4;

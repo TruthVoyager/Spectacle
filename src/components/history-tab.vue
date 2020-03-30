@@ -31,7 +31,7 @@ export default {
   color: #7f2394;
 }
 #historypos2 {
-  position: absolute;
+  position: fixed;
   left: 47%;
   top: 40px;
   z-index: 4;
