@@ -35,6 +35,7 @@ export default {
   },
 
   methods: {
+    //gets history stored in the user's local storage.
     GetHistory: function() {
       if (localStorage['searches']) {
         this.SearchHistoryTitles = JSON.parse(localStorage.getItem('searches'));
