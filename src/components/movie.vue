@@ -96,11 +96,14 @@ export default {
   position: absolute;
   left: 320px;
   top: -45px;
-  width: 1000px;
+  width: 800px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 40pt;
   color: #7f2394;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 #poster {
   position: absolute;
