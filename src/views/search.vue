@@ -1,7 +1,9 @@
 <template>
   <div>
-    <searchWidget @update:movie="SetMovie($event)" :id="this.SearchId"></searchWidget>
-    <historyTab />
+    <searchWidget
+      @update:movie="SetMovie($event)"
+      :id="this.SearchId"
+    ></searchWidget>
     <movie :moviedata="movie"></movie>
   </div>
 </template>
@@ -9,7 +11,6 @@
 <script>
 import movie from '@/components/movie.vue';
 import searchWidget from '@/components/search-widget.vue';
-import historyTab from '@/components/history-tab';
 import { mapState } from 'vuex';
 
 export default {
@@ -18,11 +19,10 @@ export default {
   components: {
     searchWidget,
     movie,
-    historyTab, 
   },
 
-  created () {
-     this.$store.dispatch('setState', 1);
+  created() {
+    this.$store.dispatch('setState', 1);
   },
 
   data: function() {
@@ -31,9 +31,10 @@ export default {
     };
   },
 
-  computed:{
-    SearchId() {return 'searchpos' + this.ui;},
-
+  computed: {
+    SearchId() {
+      return 'searchpos' + this.ui;
+    },
     ...mapState(['ui']),
   },
 
@@ -47,18 +48,17 @@ export default {
 </script>
 
 <style scoped>
-#searchpos1{
-    position: absolute;
-		top: 0px;
-    left: 42%;
-    top:55%;
-    text-align: center;
-} 
-#searchpos2{
-    position: fixed;
-		left: 42%;
-		top: 10px;
-    text-align: center;
-    z-index: 5;
+#searchpos1 {
+  position: absolute;
+  top: 39%;
+  left: 37%;
+  text-align: center;
+}
+#searchpos2 {
+  position: fixed;
+  left: 40%;
+  top: 10px;
+  text-align: center;
+  z-index: 5;
 }
 </style>

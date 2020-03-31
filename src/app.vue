@@ -1,34 +1,30 @@
 <template>
   <div id="app">
-    <img src="@/assets/TopBanner.png" id="topbanner">
+    <img src="@/assets/TopBanner.png" id="topbanner" />
     <div class="main-section columns">
-      <logo />
       <main class="column">
         <router-view />
       </main>
     </div>
-    <img src="@/assets/BottomBanner.png" id="bottombanner">
+    <img src="@/assets/BottomBanner.png" id="bottombanner" />
   </div>
 </template>
 
 <script>
-import logo from '@/components/logo';
-
 export default {
   name: 'App',
-  components: {logo },
 };
 </script>
 
 <style scoped>
-#topbanner{
+#topbanner {
   position: fixed;
   width: 110%;
   z-index: 3;
   top: -10px;
   left: -20px;
 }
-#bottombanner{
+#bottombanner {
   position: fixed;
   width: 110%;
   z-index: 3;

@@ -14,10 +14,10 @@ export default {
 
 <style scoped>
 #searchpos {
-  position: absolute;
-  left: 450px;
+  position: fixed;
+  right: 50px;
   top: 25px;
   z-index: 4;
-  color:#7f2394;
+  color: #7f2394;
 }
 </style>

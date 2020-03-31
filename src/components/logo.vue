@@ -22,9 +22,9 @@ export default {
 
 <style scoped>
 #logopos1 {
-  position: absolute;
-  left: 38%;
-  top: 37%;
+  position: relative;
+  left: 0%;
+  top: -15px;
   z-index: 4;
   text-align: center;
   font-size: 60pt;
