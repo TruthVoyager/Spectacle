@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-link to="/search" id="searchpos">
+    <router-link to="/search" id="searchpos" title="Search">
       <i class="fa fa-search fa-3x"></i>
     </router-link>
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-link :id="this.HistoryId" to="/history">
+    <router-link :id="this.HistoryId" to="/history" title="Search History">
       <i class="fa fa-history fa-2x"></i>
     </router-link>
   </div>

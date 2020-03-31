@@ -7,6 +7,7 @@
       v-model="searchTitle"
       v-on:keyup.enter="search"
       placeholder="Movie title..."
+      autofocus
     />
     <button id="searchbutton" @click="this.search">Search</button>
     <historyTab />

@@ -118,16 +118,22 @@ export default {
   font-style: italic;
   font-size: 20pt;
   color: #9c29b6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 #rating {
   position: absolute;
   top: 70px;
   left: 320px;
-  width: 400px;
+  width: 250px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 20pt;
   color: #9c29b6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 #runtime {
   position: absolute;
@@ -138,27 +144,35 @@ export default {
   font-style: italic;
   font-size: 20pt;
   color: #9c29b6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 #genre {
   position: absolute;
   top: 70px;
   left: 600px;
-  width: 900px;
+  width: 700px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 20pt;
   color: #9c29b6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 #plot {
   position: absolute;
   top: 110px;
   left: 320px;
   width: 1000px;
-  height: 50px;
+  height: 100px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 20pt;
   color: #9c29b6;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 #director {
   position: absolute;
@@ -169,16 +183,22 @@ export default {
   font-style: normal;
   font-size: 20pt;
   color: #9c29b6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 #actors {
   position: absolute;
   top: 255px;
   left: 320px;
   width: 800px;
+  height: 80px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 20pt;
   color: #9c29b6;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 #score {
   position: relative;
